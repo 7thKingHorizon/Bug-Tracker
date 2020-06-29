@@ -9,10 +9,5 @@ namespace BugTracker.Data.Models
         public DateTime CreatedDate { get; set; }
         public UserModel CreatedBy { get; set; }
         public string Text { get; set; }
-
-
-
     }
-
-
 }
