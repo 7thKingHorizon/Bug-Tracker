@@ -1,18 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BugTracker.Data.Models
 {
     class CommentModel
     {
-        public string CommentId { get; set; }
-
-        public DateTime CreatedDate { get; set; }
-
-        public string CreatedBy { get; set; }
-
+        public int Id { get; set; } 
+        public DateTime CreatedDate { get; set; } 
+        public UserModel CreatedBy { get; set; }
+        public string Text { get; set; } 
     }
 }
