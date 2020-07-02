@@ -3,7 +3,7 @@ using System;
 
 namespace BugTracker.Data.Models
 {
-    class CommentModel : ICreatable
+  public class CommentModel : ICreatable
     {
         public int Id { get; set; }
         public DateTime CreatedDate { get; set; }

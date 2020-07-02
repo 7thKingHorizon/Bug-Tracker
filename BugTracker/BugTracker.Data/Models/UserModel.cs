@@ -3,7 +3,7 @@ using System;
 
 namespace BugTracker.Data.Models
 {
-    class UserModel : ICreatable, IModifiable
+   public class UserModel : ICreatable, IModifiable
     {
         public int Id { get; set; }
         public string UserName { get; set; }

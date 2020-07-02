@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace BugTracker.Data.Models
 {
-    class TicketModel : ICreatable, IModifiable
+    public class TicketModel : ICreatable, IModifiable
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -15,5 +15,6 @@ namespace BugTracker.Data.Models
         public UserModel CreatedBy { get; set; }
         public DateTime ModifiedDate { get; set; }
         public UserModel ModifiedBy { get; set; }
+        public DateTime LastModified { get; set; }
     }
 }
